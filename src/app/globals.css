@@ -2,26 +2,93 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body::-webkit-scrollbar {
+  width: 0;               /* width of the entire scrollbar */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+body::-webkit-scrollbar-track {
+  background: #2E2E35;        /* color of the tracking area */
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+body::-webkit-scrollbar-thumb {
+  background-color: #DF9F3B;    /* color of the scroll thumb */
+  border-radius: 10px;       /* roundness of the scroll thumb */
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box  ;
+  scroll-behavior: smooth;
+}
+
+body{
+ overflow-x: hidden;
+  color: #DADADA;
+}
+
+
+
+#title::before {
+  content: "";
+  position:   absolute  ;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color:   #DF9F3B;
+  bottom:  7px;
+  right: -2px;
+}
+
+#title2::before {
+  content: "";
+  position:   absolute  ;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color:   #DF9F3B;
+  bottom:  22%;
+  right: -17px;
+}
+
+#title2::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  border-radius: 7px;
+  background-color: #DF9F3B;
+  bottom: 5%;
+  left: 0;
+}
+
+.NavLink{
+  display: inline-block ;
+  position: relative;
+  padding: 0 10px;
+}
+.NavLink::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: -10px;
+  left: 0;
+  background-color: #DF9F3B;
+  transform-origin: bottom right;
+  transition: transform 0.35s ease-out;
+}
+
+
+.NavLink:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#image{
+ 
+    display: block; 
+    width: 100%; /* Set the width to 100% */
+    height: auto; /* Allow the height to adjust based on the aspect ratio */
+ 
 }
