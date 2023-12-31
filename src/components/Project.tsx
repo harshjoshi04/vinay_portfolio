@@ -14,11 +14,11 @@ const Project = () => {
               Welcome to My Digital Showcase! 🚀
             </p>
             <p className="text-center">
-              Here, you'll discover more than just projects; you'll find
+              Here, you will discover more than just projects; you willl find
               solutions that blend functionality with design, creating immersive
               digital experiences. From transforming e-commerce platforms to
               crafting wellness apps, each project reflects my commitment to
-              excellence and my passion for pushing the boundaries of what's
+              excellence and my passion for pushing the boundaries of whats
               possible in the digital realm
             </p>
           </div>
@@ -59,7 +59,7 @@ const Project = () => {
                   showcasing my proficiency in mobile app development. This
                   project replicates key features of the popular music streaming
                   platform, including a responsive user interface, seamless
-                  navigation, and real-time audio playback. Leveraging Flutter's
+                  navigation, and real-time audio playback. Leveraging Flutter
                   widget-based approach, the app ensures a smooth and immersive
                   user experience. The Spotify Clone project highlights my
                   skills in UI/UX design, API integration, and audio streaming
