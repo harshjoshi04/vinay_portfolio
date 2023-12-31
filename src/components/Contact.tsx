@@ -17,9 +17,9 @@ const Contact = () => {
             <p className="uppercase text-second tracking-[1px]">Contact Us</p>
             <p className="text-4xl capitalize   ">Way to Contact Us </p>
             <p className="max-w-2xl text-md font-extralight tracking-[0.8px] text-center">
-              Have questions, feedback, or just want to say hello? We'd love to
-              hear from you! Our dedicated support team is here to assist you.
-              Feel free to reach out through the following channels:
+              Have questions, feedback, or just want to say hello? We&apos;d
+              love to hear from you! Our dedicated support team is here to
+              assist you. Feel free to reach out through the following channels:
             </p>
           </div>
           <div className="flex justify-center  gap-6 mt-6">

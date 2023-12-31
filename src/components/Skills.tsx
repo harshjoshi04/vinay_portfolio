@@ -13,7 +13,7 @@ const Skills = () => {
             <p className="uppercase -tracking-tight text-md text-second">
               Skills
             </p>
-            <p className="text-4xl">Tech's That I Know</p>
+            <p className="text-4xl">Tech&apos;s That I Know</p>
             <p className="text-center">
               I bring a wealth of expertise in web development, seamlessly
               integrating front-end and back-end technologies to deliver
@@ -32,7 +32,7 @@ const Skills = () => {
           </div>
           <div className="flex justify-center ">
             <div className="w-[100vw] md:w-[30vw] h-auto bg-mainSecond px-4 py-2 flex flex-col justify-start ">
-              <p className="text-second text-lg  pt-2 pb-4">Tech's</p>
+              <p className="text-second text-lg  pt-2 pb-4">Tech&apos;s</p>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4   gap-4  text-sm">
                 <Tech />
               </div>
