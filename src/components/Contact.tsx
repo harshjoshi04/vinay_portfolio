@@ -8,10 +8,10 @@ import { IoIosArrowUp } from "react-icons/io";
 const Contact = () => {
   return (
     <div
-      className="w-full h-[80vh] bg-mainFirst  flex md:justify-center  sm:px-4 relative"
+      className="w-full h-full bg-mainFirst  flex md:justify-center  sm:px-4 relative"
       id="contact"
     >
-      <div className="md:w-[60vw] pt-28 h-[90%]">
+      <div className="md:w-[60vw] pt-28 h-[90%] pb-40">
         <div className="flex flex-col justify-center gap-7">
           <div className="flex w-full flex-col items-center space-y-3">
             <p className="uppercase text-second tracking-[1px]">Contact Us</p>
@@ -35,9 +35,12 @@ const Contact = () => {
               </div>
               <div className="flex items-center gap-4 px-6 py-4 bg-mainSecond rounded  shadow text-lg -tracking-tighter       ">
                 <HiPhone size={25} />
-                <p className="text-second text-center flex-1 cursor-pointer NavLink">
+                <a
+                  className="text-second md:text-center flex-1 cursor-pointer NavLink"
+                  href="tel:7862916153"
+                >
                   +91 7862916153
-                </p>
+                </a>
               </div>
               <div className="flex items-center gap-4 px-6 py-4 bg-mainSecond rounded  shadow text-lg -tracking-tighter       ">
                 <BiLogoLinkedin size={25} />
@@ -65,7 +68,7 @@ const Contact = () => {
       </div>
       <div className="absolute bottom-0 w-full">
         <div>
-          <div className="absolute right-6 bottom-20">
+          <div className="absolute right-6 bottom-[6.5rem] ">
             <div className="border-4 border-second text-second font-bold ">
               <a href="#mainhome">
                 <IoIosArrowUp size={35} />
@@ -73,7 +76,7 @@ const Contact = () => {
             </div>
           </div>
           <div className=" w-full h-1 bg-second mb-4" />
-          <div className="flex justify-center py-2">
+          <div className="flex justify-center py-6">
             <p>Copyright - Vinay Chauhan | All Rights Reserved</p>
           </div>
         </div>

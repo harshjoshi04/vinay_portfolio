@@ -3,8 +3,8 @@ import { CgArrowDown } from "react-icons/cg";
 
 const HeroSection = () => {
   return (
-    <div className="w-full h-full  flex flex-col  md:flex-row   pt-10 md:pt-0  justify-between items-center">
-      <div className="space-y-4 mx-auto md:mx-0">
+    <div className="w-full h-full  flex flex-col  md:flex-row    pt-10 md:pt-0  justify-between items-center">
+      <div className="space-y-4 mx-auto md:mx-0 pb-16 md:pb-0">
         <div>
           <p className="text-6xl relative pb-6 " id="title2">
             <span className="titleName">Vinay</span>

@@ -67,20 +67,20 @@ const Project = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col space-y-8 px-6 md:px-0">
-              <div className="bg-mainFirst flex rounded shadow-lg">
-                <div className="w-48 h-full overflow-hidden">
+            <div className="flex flex-col space-y-8 mx-auto md:px-0">
+              <div className="bg-mainFirst flex  rounded shadow-lg w-[85vw] md:w-full ">
+                <div className="w-[35vw] md:w-48 h-full overflow-hidden">
                   <img
                     src="/whatsapp.jpg"
-                    className="w-full hh-full object-cover transition hover:scale-110 rounded"
+                    className="w-full h-full object-cover transition hover:scale-110 rounded"
                     alt=""
                   />
                 </div>
-                <div className="pt-2 px-4 flex flex-col  justify-items-start">
-                  <p className="text-white text-lg py-2">
-                    WhatsApp UI Clone - Flutter
+                <div className=" px-4 flex flex-col  justify-items-start md:pt-2">
+                  <p className="text-white text-lg py-2 line-clamp-1">
+                    WhatsApp UI Clone
                   </p>
-                  <p className="w-60 text-sm line-clamp-3">
+                  <p className="w-44 md:w-60  text-sm line-clamp-2">
                     Developed a WhatsApp UI clone using Flutter, demonstrating
                     my expertise in mobile app design and development. The
                     project faithfully replicates the intuitive and
@@ -89,19 +89,19 @@ const Project = () => {
                   </p>
                 </div>
               </div>
-              <div className="bg-mainFirst flex rounded shadow-lg ">
-                <div className="w-48 h-full overflow-hidden">
+              <div className="bg-mainFirst flex  rounded shadow-lg w-[85vw] md:w-full ">
+                <div className="w-[35vw] md:w-48 h-full overflow-hidden">
                   <img
                     src="/book.jpg"
                     className="w-full h-full object-cover transition hover:scale-110 rounded"
                     alt=""
                   />
                 </div>
-                <div className="pt-2 px-4 flex flex-col  justify-items-start    ">
-                  <p className="text-white text-lg py-2">
-                    Book Reading App - Flutter
+                <div className=" px-4 flex flex-col  justify-items-start md:pt-2">
+                  <p className="text-white text-lg py-2 line-clamp-1">
+                    Book Reading App
                   </p>
-                  <p className="w-60 text-sm line-clamp-3">
+                  <p className="w-44 md:w-60  text-sm line-clamp-2">
                     Crafted an immersive Book Reading App using Flutter. Enjoy a
                     user-friendly interface, extensive library access,
                     customizable reading settings, and offline reading.
@@ -112,24 +112,26 @@ const Project = () => {
                   </p>
                 </div>
               </div>
-              <div className="bg-mainFirst flex rounded shadow-lg">
-                <div className="w-48 h-full overflow-hidden">
+              <div className="bg-mainFirst flex  rounded shadow-lg w-[85vw] md:w-full ">
+                <div className="w-[35vw] md:w-48 h-full overflow-hidden">
                   <img
                     src="/news.jpg"
                     className="w-full h-full object-cover transition hover:scale-110 rounded"
                     alt=""
                   />
                 </div>
-                <div className="pt-2 px-4 flex flex-col  justify-items-start">
-                  <p className="text-white text-lg py-2">
-                    WhatsApp UI Clone - Flutter
+                <div className=" px-4 flex flex-col  justify-items-start md:pt-2">
+                  <p className="text-white text-lg py-2 line-clamp-1">
+                    News App
                   </p>
-                  <p className="w-60 text-sm line-clamp-3">
-                    Developed a WhatsApp UI clone using Flutter, demonstrating
-                    my expertise in mobile app design and development. The
-                    project faithfully replicates the intuitive and
-                    user-friendly interface of the original WhatsApp
-                    application.
+                  <p className="w-44 md:w-60  text-sm line-clamp-2">
+                    Explore the future of news consumption with FlutterNews, a
+                    dynamic mobile application crafted using Flutter technology.
+                    Enjoy real-time updates, personalized content, and a
+                    seamless user experience. With an intuitive interface,
+                    multimedia-rich articles, and offline reading capabilities,
+                    FlutterNews redefines how you stay informed. Embrace the
+                    evolution of news apps – download FlutterNews today.
                   </p>
                 </div>
               </div>

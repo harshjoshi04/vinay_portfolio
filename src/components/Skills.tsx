@@ -4,7 +4,7 @@ import Tech from "./Tech";
 const Skills = () => {
   return (
     <div
-      className="bg-mainFirst w-full h-[95vh] md:h-[80vh] flex md:justify-center sm:px-4"
+      className="bg-mainFirst w-full h-full pb-16 md:h-[80vh] flex md:justify-center sm:px-4"
       id="skills"
     >
       <div className="w-full px-4 md:px-0 md:w-[60vw] pt-16 h-[100%] ">

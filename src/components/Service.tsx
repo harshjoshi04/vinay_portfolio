@@ -5,10 +5,10 @@ import { MdPhoneAndroid } from "react-icons/md";
 const Service = () => {
   return (
     <div
-      className="w-full h-[90vh] bg-mainSecond  flex md:justify-center  sm:px-4"
+      className="w-full h-full pb-16 bg-mainSecond  flex md:justify-center  sm:px-4"
       id="service"
     >
-      <div className="md:w-[60vw] pt-28 h-[90%]">
+      <div className="w-full md:w-[60vw] pt-28 h-[90%]">
         <div className="flex flex-col justify-center gap-7">
           <div className="flex w-full flex-col items-center space-y-3">
             <p className="uppercase text-second tracking-[1px]">Services</p>
@@ -21,7 +21,7 @@ const Service = () => {
               connect with your audience.
             </p>
           </div>
-          <div className="flex justify-center gap-6 mt-6">
+          <div className="flex justify-center gap-6 mt-6 px-1.5">
             <div className="w-56 h-56 bg-[#2E2E35] flex flex-col items-center gap-4 justify-center text-xl transition hover:text-second">
               <LuCode className="text-[5rem]" />
               <p>Web Development</p>
